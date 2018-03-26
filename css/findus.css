@@ -1,0 +1,45 @@
+/* used in findus.html for repositioning of the blue bg*/
+body {
+  height:1000px;
+  }
+  #wrap2 {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    position:relative;
+    width:148.3%;
+    margin:0 auto;
+    left:50%;
+        text-align: center;
+        }
+          .menu2 {
+              background-color: white;
+              transform: translateX(-50%);
+                }
+
+#move {
+    transform: translateY(0em);
+}
+#move2 {
+    transform: translateY(-2em);
+}
+
+section {
+  margin:7em 0em ;
+}
+#map {
+  height: 400px;
+  width:49.4%;
+  padding:0;
+  margin:40px auto;
+
+    }
+img#shop {
+  padding:0;
+  margin:0 auto;
+    width:49.4%;
+    height:auto;
+}
+#map,img#shop{
+  border-left: 2px solid #32293c;
+  border-right: 2px solid #32293c;
+}

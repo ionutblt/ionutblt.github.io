@@ -1,0 +1,139 @@
+.bg,.fundal4,.fundal5{
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position:center;}
+.bg{
+  height:600px;
+  width:100%;
+  float:left;
+  background-image: url("../img/ken-lawrence.5.jpg");
+  -webkit-filter: drop-shadow(3px 13px 8px black); /* Safari */
+  filter: drop-shadow(3px 13px 8px black);
+  filter: contrast(150%);
+  }
+.hero,.hero2{
+   font-family: "Agenda";
+   color: #dab17a;
+   text-shadow: 1px 1px 2px black;
+   text-align:center;
+   opacity:1;
+   padding:20px 30px 0px;
+   margin:auto;
+       }
+.hero  {
+  margin:21.3rem auto 0;
+  font-size: 3em;
+  width:521px;
+    }
+.hero2 {
+  margin-top: 50px;
+  font-size: 3em;
+  opacity:0.9;
+  color:white;
+    }
+  /*@media only screen and (max-width: 1200px) {
+    .hero{
+      max-height:300px;
+      text-align:center;
+      width:40%
+  }
+  }*/
+        /*
+    @media only screen and (max-width: 820px) {
+     .hero{
+       text-align:center;
+       font-size: 1.6em;
+       text-align:left;
+       border-radius: 15px 0px 15px 0px;
+       max-height:400px;              experimental
+       width:60%;
+       padding:10px 15px;
+        }
+        }*/
+
+#underline,#underline2,#underline3,#underline4 {
+  border:none;
+  height:1px;
+  width:12%;
+  color:#dab17a;          /*old IE*/
+  background-color: #dab17a; /* Modern Browsers*/
+  opacity:0.6;
+  filter: drop-shadow(3px 13px 8px black);
+}
+#underline2 { width:6%;}
+#underline3 {width:5%;}
+#underline4 {width:2%;}
+
+/* Accordeon */
+/* Functional */
+ .accordion .accordion-item:hover .accordion-item-content,
+ .accordion .accordion-item--default .accordion-item-content {
+     height: 10em;
+     font-family:arial;
+       }
+ .accordion-item-content, .accordion:hover .accordion-item-content {
+     height: 0;
+     overflow: hidden;
+     -webkit-transition: height .30s;
+        -moz-transition: height .30s;
+         -ms-transition: height .30s;
+          -o-transition: height .30s;
+             transition: height .30s;
+             }
+/* Aesthetic */
+ .accordion {
+         padding: 0;
+         margin: 0 auto;
+         margin-top:6em;
+         margin-bottom:6em;
+         width: 50%;
+         border-radius: 8px;
+           }
+     .accordion .accordion-item {
+         background-image: -webkit-linear-gradient(90deg, #eee, #f5f5f5, #eee);
+         background-image:         linear-gradient(90deg, #eee, #f5f5f5, #eee);
+       border-bottom: 1px solid #666;
+       padding: 2em;
+       color: #eee;
+       opacity:0.8;
+           }
+     .accordion h1 {
+       margin: 0;
+       padding-bottom:5px;
+         font-family: "Agenda";
+         font-weight:300;
+         }
+     .accordion .accordion-item:nth-child(1) {
+       background-color: hsl(200, 80%, 60%);
+       background-image: -webkit-linear-gradient(-90deg, hsl(200, 80%, 60%), hsl(200, 80%, 45%) 2em, hsl(200, 80%, 60%));
+       background-image:         linear-gradient(-90deg, #C67200 1em, #32293c 2em, hsl(40, 80%, 60%));
+       line-height:2em;
+       font-size: 1.8em;
+         }
+     .accordion .accordion-item:nth-child(2) {
+       background-color: hsl(280, 60%, 45%);
+       background-image: -webkit-linear-gradient(-90deg, hsl(280, 80%, 60%), hsl(280, 60%, 45%) 2em, hsl(280, 80%, 60%));
+       background-image:        linear-gradient(-90deg, #2e143a 1em, #32293c 2em, hsl(280, 33%, 23%));
+       line-height:2em;
+       font-size: 1.8em;
+         }
+     .accordion .accordion-item:nth-child(3) {
+       background-color: hsl(40, 80%, 40%);
+       background-image: -webkit-linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
+       background-image:           linear-gradient(-90deg, #C67200 1em, #32293c 2em, hsla(40, 71%, 25%, 0.1));
+       line-height:2em;
+       font-size: 1.8em;
+         }
+     .accordion .accordion-item:nth-child(4) {
+       background-color: hsl(80, 40%, 40%);
+       background-image: -webkit-linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
+       background-image:        linear-gradient(-90deg, hsl(200, 80%, 60%) 1em, #32293c 2em, hsl(188, 57%, 20%));
+       line-height:2em;
+       font-size: 1.8em;
+         }
+
+/*Social Legal Contact */
+.fundal4{
+    height:95.8em;
+    background-image: url("../img/Layer-2.png");
+    }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+         <title>Workshop Location</title>
+         <link rel="stylesheet" href="css/main.css" type=text/CSS>
+         <link rel="stylesheet" href="css/findus.css" type=text/CSS>
+         <meta charset="utf-8">
+         <meta content="ie=edge" http-equiv="x-ua-compatible">
+         <meta name="viewport" content="width=device-width,
+           initial-scale=1.0">
+         <style>
+
+
+          </style>
+         <script src="https://use.fontawesome.com/dc42e8b348.js"></script>
+         <!-- for social icons-->
+  </head>
+
+  <body>
+
+            <!--header-->
+            <header>
+
+              <!--logo-->
+              <div>
+                <a href=index.html title="Home">
+                  <img src="img/logo.png" alt=logo height="80" width="366"
+                   id="logo" />
+                </a>
+              </div>
+
+              <!--separator-->
+              <hr style=color:#b6b6b6/> </hr>
+
+              <!--navbar-->
+              <div id="wrap">
+                <div id="menu" >
+                  <ul style="list-style-type: none;">
+                    <li>
+                      	          <a href="index.html" title="Home">HOME</a>
+                      <a href="pricing.html" title="Services">PRICING</a>
+                      <a href="gallery.html">GALLERY</a>
+                      <a href="findus.html" title="Workshop Location" class=active>FIND US</a>
+                      <a href="services.html" >SERVICES</a>
+                      <a href="faqs.html">FAQs</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--separator-->
+              <hr style=color:#b6b6b6/> </hr>
+
+            </header>
+
+            <section class=gradient>
+
+              <div id="wrap2" >
+
+                  <!--workshop photo-->
+                <div class=menu2>
+                  <img id=shop src=img/ss2.5.jpg alt="workshop photo" width="1000px" height="285px" >
+                </div>
+
+                  <!--map location-->
+                <div class=menu2>
+                  <!--map code-->
+                  <div id="map" ></div>
+                     <script>
+                       function initMap() {
+                         var Bucharest = {lat: 44.430614, lng: 26.104411};
+                         var map = new google.maps.Map(document.getElementById('map'), {
+                           zoom: 18,
+                           center: Bucharest
+                         });
+                         var marker = new google.maps.Marker({
+                           position: Bucharest,
+                           map: map
+                         });
+                       }
+                     </script>
+                     <script async defer
+                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0PqMnz1IZToh34NoUByPGsskLJR6Tlbc&callback=initMap">
+                     </script>
+                  </div>
+                </div>
+
+              </div>
+
+            </section>
+
+            			<!-- social Legal Contact -->
+            			<div class="fundal5">
+            					<p class="social">
+
+            								Stay connected:
+            								<span id=test>
+            									<a href=#>   <i class="fa fa-facebook-square" aria-hidden="true"></i>  </a>
+            									&nbsp;
+
+            									<a href=#>   <i class="fa fa-envelope" aria-hidden="true"></i>   </a>
+            									&nbsp;
+
+            									<a href=#>  <i class="fa fa-instagram" aria-hidden="true"></i>    </a>
+            								</span>
+
+            								<span>  <a href=#>Sitemap</a>  </span>
+            								|
+
+            								<span>  <a href=#>Privacy</a>  </span>
+
+            								|
+            								<span>  <a href=#>Terms-of-Service</a>  </span>
+
+            								<span>
+            									Contact: Street<span id="contact"> Bărăției</span>
+            									121, Bucharest, RO, + 40 730 893 948.
+            								</span>
+
+            					</p>
+            			</div>
+
+  </body>
