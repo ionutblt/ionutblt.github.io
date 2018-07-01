@@ -5,15 +5,11 @@ body {
   #wrap2 {
     width: -moz-fit-content;
     width: -webkit-fit-content;
-    position:relative;
-    width:148.3%;
     margin:0 auto;
-    left:50%;
-        text-align: center;
+    text-align: center;
         }
           .menu2 {
               background-color: white;
-              transform: translateX(-50%);
                 }
 
 #move {
