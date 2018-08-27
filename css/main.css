@@ -167,7 +167,9 @@ button {
   margin-top:423px;
   /*top: 48.2rem; /*pt firefox e 32.2rem*/
    -webkit-transform: translateX(25.1rem);
-           transform: translateX(25.1rem)
+           transform: translateX(25.1rem);
+  -webkit-transition: all .35s;
+          transition: all .35s;
 }
 button:hover {
       -webkit-box-shadow: 0 0 12px 2px #35393f;
