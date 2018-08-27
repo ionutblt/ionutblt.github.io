@@ -174,7 +174,7 @@ button:hover {
           box-shadow: 0 0 12px 2px #35393f;
     cursor: pointer;
 }
-  @media only screen and (min-width: 1920px) {
+  @media only screen and (min-width: 1921px) {
       button {
       margin-top: 593px;
       transform: translateX(32.4rem);
