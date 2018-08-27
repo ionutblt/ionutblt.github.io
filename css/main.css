@@ -178,6 +178,8 @@ button:hover {
       margin-top: 443px;
       transform: translateX(27.1rem);
       }
+      .fundal {height: 40%;}
+      .hero-text {top: 12.7em;}
 }
   @media only screen and (max-width: 820px) {
     body{
