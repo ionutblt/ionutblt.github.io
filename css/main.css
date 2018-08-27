@@ -161,8 +161,7 @@ button {
   padding-left: 0px;
   padding-right: 8px;
   padding-bottom: 1px;
-  -webkit-box-shadow: 0 0 12px 2px #35393f;
-          box-shadow: 0 0 12px 2px #35393f;
+
   position:absolute;
   /*right: 22%;*/
   margin-top:423px;
@@ -171,12 +170,14 @@ button {
            transform: translateX(25.1rem)
 }
 button:hover {
+      -webkit-box-shadow: 0 0 12px 2px #35393f;
+          box-shadow: 0 0 12px 2px #35393f;
     cursor: pointer;
 }
   @media only screen and (min-width: 1920px) {
       button {
-      margin-top: 443px;
-      transform: translateX(27.1rem);
+      margin-top: 593px;
+      transform: translateX(32.4rem);
       }
       .fundal {height: 40%;}
       .hero-text {top: 12.7em;}
