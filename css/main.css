@@ -305,6 +305,7 @@ p.fourstep-text a {
             text-decoration: none;    /* emphasized link */
             color: #dab17a;
           }
+         p.sendus>a:hover {color:purple;}
 /*1st testimonial*/
     #wraptone {
         position:relative;
@@ -353,6 +354,9 @@ p.fourstep-text a {
     p.giveus-text>a {                /* emphasized link */
       text-decoration: none;
       color: #dab17a;
+    }
+    p.giveus-text>a:hover {
+        color:purple;
     }
 
 /*FOOTER*/
