@@ -305,7 +305,10 @@ p.fourstep-text a {
             text-decoration: none;    /* emphasized link */
             color: #dab17a;
           }
-         p.sendus>a:hover {color:purple;}
+         p.sendus>a:hover {
+             color:purple;
+             text-shadow: 0 0 1px white;
+          }
 /*1st testimonial*/
     #wraptone {
         position:relative;
@@ -357,6 +360,7 @@ p.fourstep-text a {
     }
     p.giveus-text>a:hover {
         color:purple;
+        text-shadow: 0 0 1px white;
     }
 
 /*FOOTER*/
